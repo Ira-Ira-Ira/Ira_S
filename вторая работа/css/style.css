@@ -1,0 +1,156 @@
+body{
+    background-color: #cccccc;
+    margin: 0;
+}
+
+.header {
+    background-color: #85818c;
+    margin-top: 15px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-radius: 7px;
+}
+
+.logo {
+    font-size: 25px;
+    color: #f7ebf7;
+    padding-left: 30px;
+}
+
+ul{
+    list-style: none;
+    text-align: right;
+    padding-right: 30px; 
+
+ }
+
+li{
+    margin: 25px ;
+    color: #f7ebf7;
+    text-align: center;
+    list-style: none;
+  
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 17px;
+}
+
+a:hover {
+   color: #d9b2c0;
+}
+
+a:active {
+    color: #ffbdd3;
+}
+
+.conteiner {
+    margin: auto;
+    width: 1200px;
+}
+
+.panel1 {
+    background-color: #f7ebf7; 
+    width: 150px;
+    height: 250px;
+    display: flex;
+    margin-top: 25px;
+    border-radius: 5px;
+    align-items: center;  
+    justify-content: center;
+
+}
+
+.panel2 {
+    background-color: #f7ebf7; 
+    width: 150px;
+    height: 200px;
+    margin-top: 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.in{
+    background-color: #85818c;
+    width: 120px;
+    height: 180px;
+    border-radius: 7px;
+}
+
+main {
+    display: flex;
+}
+
+article { 
+    width: 1000px;
+    margin-left: auto;
+  }
+
+.first {
+    background-color: #DEE3FA;
+    height: 400px;
+    margin-top: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    padding: 20px; 
+    border-radius: 30px;     
+}
+
+.second {
+    background-color: #DEE3FA;
+    margin-top: 20px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: auto;
+
+}
+
+.Card{
+  background-color: #c2b2bd ;
+  width: 150px;
+  height: 150px;
+  border-radius: 7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.third {
+    background-color: #DEE3FA;
+    margin-top: 30px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: auto;
+}
+
+.two{
+    flex-direction: column;
+}
+
+.Card1 {
+  background-color: #c2b2bd ;
+  width: 150px;
+  height: 80px;
+  border-radius: 7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
