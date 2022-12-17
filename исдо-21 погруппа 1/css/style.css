@@ -1,0 +1,51 @@
+body{
+    background-color: #557082;
+}
+
+div{
+    width: 50%;
+    height: 50%;
+    background-color: #F0E0E3;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+.text{
+    background-color: #D1EBF0;
+    color: black;
+    
+ 
+}
+
+h1, h2, h3{
+    text-align: center;
+    color: black;
+}
+
+p{
+   font-size: 14px;
+   color: #424777;
+   padding: 10px;
+}
+
+img{
+    width: 200px;
+    height:200px;
+    margin: 10px;
+    float: left;
+}
+
+/* внешние границы таблицы серого цвета толщиной 1px */
+table {
+    border: 1px solid #DBB2D1;
+    margin: auto;
+    margin-top: 5%;
+ }
+ /* границы ячеек первого ряда таблицы */
+ th, td{
+    border: 1px solid #C7BDD9;
+    color:  #C1D9C0
+ }
+ 
